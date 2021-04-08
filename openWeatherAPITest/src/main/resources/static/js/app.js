@@ -1,7 +1,7 @@
 var app = (function () {
     var buscaCity = function () {
         var city = document.getElementById("city").value;
-        fetch('http://locallhost:8080/weather/city/'+city)
+        fetch('http://localhost:8080/weather/city/'+city)
             .then(response => response.json())
             .then(json => mostrar(json))
             .catch(err => {
