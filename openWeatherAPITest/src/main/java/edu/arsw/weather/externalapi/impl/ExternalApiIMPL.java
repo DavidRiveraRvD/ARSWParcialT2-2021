@@ -7,7 +7,7 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 import edu.arsw.weather.externalapi.ExternalApi;
 import org.springframework.stereotype.Service;
 
-
+@Service
 public class ExternalApiIMPL implements ExternalApi {
 
     @Override
