@@ -1,11 +1,12 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
-##David Rivera
+
+## David Rivera
 
 
 
 
-[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://arswparcialt2.herokuapp.com/)
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://rivera-arsw-t2.herokuapp.com/)
 
 
 ## Preparación para el Parcial
