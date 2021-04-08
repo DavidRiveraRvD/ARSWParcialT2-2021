@@ -14,6 +14,7 @@ function initialize() {
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
+
     // Add interaction listeners to make weather requests
     google.maps.event.addListener(map, 'idle', checkIfDataRequested);
     // Sets up and populates the info window with details
