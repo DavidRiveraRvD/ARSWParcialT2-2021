@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>API Weather</title>
+    <title>Weather</title>
     <script src="/webjars/jquery/3.5.1/jquery.min.js"></script>
     <script src="/webjars/bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/webjars/bootstrap/4.6.0/css/bootstrap.min.css" />
@@ -15,13 +15,17 @@
             height: 100%;
             margin: 0;
             padding: 0;
+            background-color: aqua;
         }
         #map-canvas {
-            width: 60%;
-            height: 500px;
+            width: 50%;
+            height: 700px;
         }
         .gm-style-iw {
             text-align: center;
+        }
+        h3{
+            color: black;
         }
     </style>
 </head>
@@ -29,7 +33,7 @@
 <div class="container-fluid py-5">
     <div class="row">
         <div class="col-md-12">
-            <h3 class="text-info text-center">API Weather</h3>
+            <h3 class="text-center">Weather</h3>
             <form>
                 <input type="text" placeholder="City" id="city" required>
                 <input type="button" value="Search" class="btn btn-primary" onclick="app.buscaCity()">
